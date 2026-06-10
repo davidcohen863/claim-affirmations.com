@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Claim — Affirmation &amp; Manifestation Screen Lock</title>
+  <meta name="description" content="Claim blocks your distracting apps until you speak your affirmations out loud. Turn doomscrolling into a daily manifestation practice.">
+  <link rel="canonical" href="https://claim-affirmations.com/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/icon-192.png">
+  <meta name="theme-color" content="#fff7f1">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Claim — Affirmation &amp; Manifestation Screen Lock">
+  <meta property="og:description" content="Block your distracting apps until you speak your affirmations out loud.">
+  <meta property="og:url" content="https://claim-affirmations.com/">
+  <meta property="og:image" content="https://claim-affirmations.com/assets/icon.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <a href="/" aria-label="Claim home">
+      <img src="/assets/icon-192.png" alt="" width="44" height="44">
+      <span class="wordmark">claim</span>
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>your feed is eating <span class="accent">your future</span></h1>
+      <p class="solution">Claim blocks your distracting apps until you speak your affirmations out loud.</p>
+      <a class="cta" href="#" aria-disabled="true">
+        <span class="apple-glyph">&#63743;</span>
+        Coming soon to the App&nbsp;Store
+      </a>
+      <span class="cta-note">for iPhone</span>
+    </section>
+
+    <section class="demo" aria-label="App preview">
+      <video src="/assets/hero.mp4" autoplay muted loop playsinline aria-hidden="true"></video>
+    </section>
+
+    <section class="steps" aria-label="How it works">
+      <div class="step">
+        <span class="num">1</span>
+        <p>Choose the apps that steal your time.</p>
+      </div>
+      <div class="step">
+        <span class="num">2</span>
+        <p>They lock on the schedule you set.</p>
+      </div>
+      <div class="step">
+        <span class="num">3</span>
+        <p>Say your affirmations out loud to unlock them.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="/terms/">Terms of Service</a>
+      <span class="dot">&bull;</span>
+      <a href="/privacy/">Privacy Policy</a>
+      <span class="dot">&bull;</span>
+      <a href="/support/">Support</a>
+      <span class="dot">&bull;</span>
+      <a href="https://apps.apple.com/account/subscriptions">Manage Subscription</a>
+    </nav>
+    <p>&copy; 2026 Claim. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // Respect Reduce Motion: stop the looping demo video.
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      document.querySelectorAll("video").forEach(function (v) { v.removeAttribute("autoplay"); v.pause(); });
+    }
+  </script>
+</body>
+</html>

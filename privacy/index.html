@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Claim</title>
+  <meta name="description" content="How Claim handles your data: what never leaves your iPhone, what syncs if you sign in, and how to delete everything.">
+  <link rel="canonical" href="https://claim-affirmations.com/privacy/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <meta name="theme-color" content="#fff7f1">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <a href="/" aria-label="Claim home">
+      <img src="/assets/icon-192.png" alt="" width="44" height="44">
+      <span class="wordmark">claim</span>
+    </a>
+  </header>
+
+  <main class="doc">
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 10, 2026</p>
+
+    <p>Claim ("Claim", "we", "us") is an iPhone app that blocks the apps you choose until you speak
+    your affirmations out loud. It is built so that the most sensitive things it touches — your voice
+    and the list of apps you block — never leave your iPhone. This policy explains what little data
+    the app does handle, and how.</p>
+
+    <div class="callout">
+      <p><strong>The short version</strong></p>
+      <ul>
+        <li><strong>Your voice is never recorded.</strong> Affirmations are checked by Apple's
+        on-device speech recognition. No audio and no transcript is ever stored or sent anywhere.</li>
+        <li><strong>No camera, ever.</strong> Claim does not use the camera and never asks for
+        access to it.</li>
+        <li><strong>We cannot see which apps you block.</strong> Apple's Screen Time technology keeps
+        your selection on your device in a form that is unreadable to us.</li>
+        <li><strong>No account required.</strong> Everything works on-device. If you do sign in, your
+        affirmations, schedules, and progress sync to your account — and you can delete it all, in the
+        app, at any time.</li>
+        <li><strong>No ads, no trackers, no selling data.</strong> Ever.</li>
+      </ul>
+    </div>
+
+    <h2>Who we are</h2>
+    <p>Claim is developed by David Cohen. For anything in this policy, contact
+    <a href="mailto:support@claim-affirmations.com">support@claim-affirmations.com</a>.</p>
+
+    <h2>What never leaves your iPhone</h2>
+    <h3>Your voice</h3>
+    <p>When you unlock by speaking your affirmations, the microphone audio is processed by Apple's
+    speech recognition running entirely on your device, using a language model installed locally.
+    The audio is analyzed in the moment and discarded: no recording is made, no transcript is saved,
+    and nothing about what you said is transmitted off the device — whether you match your affirmation
+    or not.</p>
+    <h3>Your camera</h3>
+    <p>Claim does not use the camera at all — it never requests camera permission, so it cannot see
+    you. The unlock ritual is voice-only.</p>
+    <h3>The apps you block</h3>
+    <p>Claim uses Apple's Screen Time (Family Controls) technology to block apps. Apple designed this
+    so that your app selection is represented by opaque tokens: Claim itself cannot read which apps
+    they are, and the selection never syncs to our servers. Which apps you block is between you and
+    your iPhone.</p>
+
+    <h2>Data stored on your device</h2>
+    <p>The app keeps its working data in its own sandboxed storage on your iPhone: your routines and
+    schedules, your affirmation sets (including ones you write), a history of lock and unlock moments
+    (the kind of event, the routine's name, and the time — never audio or transcripts), your settings,
+    and your subscription status. If you never sign in, this data exists nowhere else, and deleting
+    the app deletes it.</p>
+
+    <h2>If you create an account (optional)</h2>
+    <p>You can use all of Claim without an account. Signing in with Apple creates an account so your
+    practice can be backed up and synced across your devices. When signed in, we store:</p>
+    <ul>
+      <li><strong>Account details:</strong> an account identifier and the email address your Apple ID
+      shares with us (which may be Apple's private relay address if you choose to hide your email).</li>
+      <li><strong>Your affirmations:</strong> the affirmation sets you use and the custom affirmations
+      you write.</li>
+      <li><strong>Your routines:</strong> routine names and schedules — but not the apps they block
+      (see above; those never leave the device).</li>
+      <li><strong>Your progress:</strong> history events (event type, routine name, timestamp) that
+      power your streaks and stats.</li>
+      <li><strong>Your settings:</strong> app preferences, including the answers you gave during
+      onboarding (such as your goals), which personalize your experience.</li>
+    </ul>
+    <p>This data is stored in our database hosted by Supabase, protected in transit by TLS and
+    isolated per account at the database level, so your data is only ever readable by your own
+    signed-in account.</p>
+
+    <h2>Anonymous usage analytics</h2>
+    <p>To understand whether Claim is helping, the app can report a small set of anonymous usage
+    events: app opened, ritual completed, emergency unlock used, lock started manually, and routine
+    created. Each stored event is only the event name, the app version, and a timestamp — no account
+    identifier, no device identifier, and no content is attached to it. Separately, a simple
+    per-account daily counter (containing no event details) protects the service from abuse.</p>
+    <p>You can turn this off any time in <strong>Settings → Privacy → Share anonymous analytics</strong>;
+    when off, nothing is sent.</p>
+
+    <h2>Subscriptions and payments</h2>
+    <p>Premium is billed by Apple through your Apple ID. We never see or store your payment details.
+    We use RevenueCat to manage subscriptions: it processes your purchase information together with a
+    random app-specific identifier. To keep Premium active across your devices, we record your
+    subscription's status (including Apple's transaction identifiers) against your account, and Apple
+    notifies our server about subscription events such as renewals and refunds.</p>
+
+    <h2>Service providers</h2>
+    <p>We use a small number of providers to run Claim, each only for the purpose described:</p>
+    <ul>
+      <li><strong>Apple</strong> — Sign in with Apple, App Store billing, and on-device technologies
+      (speech recognition, Screen Time).</li>
+      <li><strong>Supabase</strong> — hosts our database and authentication.</li>
+      <li><strong>RevenueCat</strong> — subscription management.</li>
+    </ul>
+    <p>We do not sell or rent your personal information, and we do not share it with anyone for
+    advertising. There are no advertising or tracking SDKs in the app.</p>
+
+    <h2>Retention and deletion</h2>
+    <ul>
+      <li><strong>Delete your account in the app:</strong> Settings → Account → Delete Account. This
+      permanently erases your account and all synced data from our servers.</li>
+      <li><strong>Local data:</strong> deleting the app from your iPhone deletes everything stored on
+      the device.</li>
+      <li><strong>Analytics:</strong> events are stored without identity, so they cannot be linked
+      back to you; we keep them only as aggregate usage history.</li>
+      <li>You can also email us at
+      <a href="mailto:support@claim-affirmations.com">support@claim-affirmations.com</a> and we will
+      delete your data for you.</li>
+    </ul>
+
+    <h2>Security</h2>
+    <p>Data syncs over encrypted connections (TLS). Server-side, every record is bound to your account
+    and enforced row-by-row at the database level. Sign-in sessions are kept in the iOS Keychain. The
+    most sensitive data — voice, camera, and app selections — is protected the strongest way we know:
+    it is never collected in the first place.</p>
+
+    <h2>Your rights</h2>
+    <p>Depending on where you live (for example under the GDPR, UK GDPR, or California law), you may
+    have rights to access, correct, export, restrict, or delete your personal data, and to object to
+    certain processing. You can exercise the most important ones directly in the app (deletion,
+    analytics opt-out) or by emailing us. If you are in the EU/UK you also have the right to complain
+    to your data-protection authority. We do not sell or "share" personal information as defined by
+    the California Consumer Privacy Act.</p>
+
+    <h2>Children</h2>
+    <p>Claim is not directed at children under 13, and we do not knowingly collect personal data from
+    them. If you believe a child has created an account, contact us and we will delete it.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If we change this policy, we will update this page and the date at the top. For material
+    changes we will let you know in the app.</p>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:support@claim-affirmations.com">support@claim-affirmations.com</a></p>
+  </main>
+
+  <footer>
+    <nav>
+      <a href="/terms/">Terms of Service</a>
+      <span class="dot">&bull;</span>
+      <a href="/privacy/">Privacy Policy</a>
+      <span class="dot">&bull;</span>
+      <a href="/support/">Support</a>
+    </nav>
+    <p>&copy; 2026 Claim. All rights reserved.</p>
+  </footer>
+</body>
+</html>
