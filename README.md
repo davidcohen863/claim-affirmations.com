@@ -48,9 +48,10 @@ My Products → claim-affirmations.com → DNS:
 
 Delete GoDaddy's default "Parked" A record. Propagation: minutes to a few hours.
 
-Also worth doing while in GoDaddy: add **email forwarding** for
-`support@claim-affirmations.com` → your real inbox (Domain Settings → Email Forwarding) — the site
-and both legal documents use that address.
+Contact address: the site, both legal documents, and the app's Settings → About → Contact all use
+**cohend863@gmail.com** directly — no mail forwarding needed. To switch to a branded address later
+(e.g. `support@claim-affirmations.com`), set up GoDaddy email forwarding, then change the `mailto:`
+links here and `AppLinks.supportEmail` in the app.
 
 ## Before App Store launch
 
